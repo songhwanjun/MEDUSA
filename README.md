@@ -17,6 +17,10 @@ Please consider citation if our paper is useful in your research.
 
 ## Overview
 
+<p align="center">
+<img src="featured.png " width="1200"> 
+</p>
+
 This project implements a framework to fuse RGB an depth information using multimodal Transformers in the context of object detection. The goal is to show that the inferred depth maps should play an important role to put the limit of appearance-based object detection. Thus, we propose a generic framework MEDUSA (Multimodal Estimated-Depth Unification with Self-Attention). Unlike previous methods that use the depth measured from various physical sensors such as Kinect and Lidar, we show that the depth maps inferred by a monocular depth estimator can play an important role to enhance the performance of modern object detectors. In order to make use of the estimated depth, MEDUSA encompasses a robust feature extraction phase, followed by multimodal transformers for RGB-D fusion, as can be seen in the figure above.
 
 
