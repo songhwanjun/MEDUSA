@@ -33,7 +33,24 @@ optimal RGB-D fusion via the self-attention mechanism.
 **About the code**. This code is based on the original implementation of DETR, a
 transformer-based object detection framework, requiring Pytorch 1.5+.
 
-## Datasets
+## Microsoft COCO Data with Inferred Depth Maps
 
 We extended a large-scale objecct detection dataset, Microsoft COCO, by applying the state-of-the-art monocular depth estimator, [MiDaS](https://github.com/isl-org/MiDaS). The extracted depth maps for Microsoft COCO is available [[here]](https://drive.google.com/file/d/1TyXIqykl_T6SmDBZJ0-y6OYnKVKRv9Aq/view?usp=sharing). Please put the two folders, train2017_depth and val2017_depth, at the same location where train_2017 and val2017 folders exist.
+
+## Training
+Please run the run_distributed_medusa.py file using suitable hyperparameters inside. 
+```
+# Hyperparameters in run_distributed_medusa.py (e.g., 8 GPU setup): 
+batch_size = '4'
+image_height = 800
+image_width = 1333
+num_workers = '2'
+epochs = '150'
+lr_drop = 100
+print_freq = 200
+path = '/home/Research/COCO2017'
+
+# run the training script.
+python run_distributed_medusa.py
+```
 
