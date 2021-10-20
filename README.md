@@ -35,11 +35,5 @@ transformer-based object detection framework, requiring Pytorch 1.5+.
 
 ## Datasets
 
-We built two extended large-scale RGB-D datasets, COCO-RGBD and VOC-RGBD, by
-applying the state-of-the-art monocular depth estimator, MiDaS. All the datasets
-are provided with raw RGB images and their estimated depth maps, but we also
-provide COCO-RGBD data with SSTable format for the testing purpose.
+We extended a large-scale objecct detection dataset, Microsoft COCO, by applying the state-of-the-art monocular depth estimator, [MiDaS](https://github.com/isl-org/MiDaS). The extracted depth maps for Microsoft COCO is available [[here]](https://drive.google.com/file/d/1TyXIqykl_T6SmDBZJ0-y6OYnKVKRv9Aq/view?usp=sharing). Please put the two folders, train2017_depth and val2017_depth, at the same location where train_2017 and val2017 folders exist.
 
-The two raw datasets can be found [COCO-RGBD](http://) and [VOC-RGBD](http://).
-The COCO-RGBD (SSTable) can be found
-[COCO-RGBD (SSTable)](https://cnsviewer.corp.google.com/cns/li-d/home/hwanjun/COCO2017-RGBD/TF/).
