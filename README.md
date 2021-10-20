@@ -54,3 +54,68 @@ path = '/home/Research/COCO2017'
 python run_distributed_medusa.py
 ```
 
+## Comparison with RGB-Only DETR
+
+<table>
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>resolution</th>
+      <th>schedule</th>
+      <th>box AP</th>
+      <th>url</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>DETR</td>
+      <td>300x500</td>
+      <td>150</td>
+      <td>27.5</td>
+      <td>-</td>
+    <tr>
+      <th>3</th>
+      <td>DETR</td>
+      <td>420x700</td>
+      <td>150</td>
+      <td>32.5</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>DETR</td>
+      <td>800x1333</td>
+      <td>150</td>
+      <td>38.3</td>
+      <td>-</td>
+    </tr>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MEDUSA</td>
+      <td>300x500</td>
+      <td>150</td>
+      <td>28.9 (+1.4)</td>
+      <td><a href="https://drive.google.com/file/d/1BYtXs6VZJA4VHx0ozW8GxzJ3dZYJ16yR/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/170lin-9qhuggYyqeTbwLHawFuQDL5rrt/view?usp=sharing">logs</a></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>MEDUSA</td>
+      <td>420x700</td>
+      <td>150</td>
+      <td>33.6 (+1.1)</td>
+      <td><a href="https://drive.google.com/file/d/1RdyySEw4hmjZY0BgPfWkRdxf15iRMAHH/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1nCBKNFM_Jp-8ApmIqJlp3LDfyw7cB-m6/view?usp=sharing">logs</a></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>MEDUSA</td>
+      <td>800x1333</td>
+      <td>150</td>
+      <td>40.0 (+1.7)</td>
+      <td><a href="https://drive.google.com/file/d/1jhxyNOLngHyvvcjfXT-Osi-RuBGh2qbS/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1-MppNO-I0nDvJyivpsA6vjAdYCDxlKgZ/view?usp=sharing">logs</a></td>
+    </tr>
+  </tbody>
+</table>
+
