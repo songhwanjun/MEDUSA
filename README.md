@@ -125,3 +125,7 @@ The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
   </tbody>
 </table>
 
+## Acknowledgement
+This project is based on DETR ([paper](https://arxiv.org/abs/2005.12872). Thanks for their wonderful works.
+
+
