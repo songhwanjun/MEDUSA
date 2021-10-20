@@ -56,6 +56,12 @@ python run_distributed_medusa.py
 
 ## Comparison with RGB-Only DETR
 
+The convergence curves on mAP is summarized in the Figure below. See the details in our paper.
+<p align="center">
+<img src="figures/convergence.png " width="1200"> 
+</p>
+
+The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
 <table>
   <thead>
     <tr style="text-align: right;">
@@ -119,7 +125,3 @@ python run_distributed_medusa.py
   </tbody>
 </table>
 
-The convergence curves on mAP is summarized in the Figure below. See the details in our paper.
-<p align="center">
-<img src="figures/convergence.png " width="1200"> 
-</p>
