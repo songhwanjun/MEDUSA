@@ -40,7 +40,7 @@ We extended a large-scale objecct detection dataset, Microsoft COCO, by applying
 ## Training
 Please run the run_distributed_medusa.py file using suitable hyperparameters inside. 
 ```
-# Hyperparameters in run_distributed_medusa.py (e.g., 8 GPU setup): 
+# Hyperparameters in run_distributed_medusa.py (e.g., 8 GPU setup).
 batch_size = '4'
 image_height = 800
 image_width = 1333
