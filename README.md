@@ -10,7 +10,7 @@ Please consider citation if our paper is useful in your research.
 
 by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup> \*, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup> \*, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>3</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>3</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>4</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>3,5</sup>
 
-<sup>1</sup> NAVER AI Lab, <sup>2</sup> Motion2Ai, <sup>3</sup> Google Researrch, <sup>4</sup> KAIST, <sup>4</sup> University of California at Merced.
+<sup>1</sup> NAVER AI Lab, <sup>2</sup> Motion2Ai, <sup>3</sup> Google Researrch, <sup>4</sup> KAIST, <sup>5</sup> University of California at Merced.
 
 ```BibTeX
 @inproceedings{MEDUSA,
