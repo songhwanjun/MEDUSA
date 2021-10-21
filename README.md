@@ -79,23 +79,23 @@ The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
       <td>DETR</td>
       <td>300x500</td>
       <td>150</td>
-      <td>27.5</td>
-      <td>-</td>
+      <td>27.4</td>
+      <td><a href="https://drive.google.com/file/d/1TS___G9L4RfbdxBnyOUJtuFDLWdedRy-/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1h8L--fz9INa5q-eMgEKTf5bVrhWSjPBG/view?usp=sharing">logs</a></td>
     <tr>
       <th>3</th>
       <td>DETR</td>
       <td>420x700</td>
       <td>150</td>
       <td>32.5</td>
-      <td>-</td>
+      <td><a href="https://drive.google.com/file/d/1o-8B4gTEgyelBJrD-No_5gVvnR7zyuLC/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1B1AcmWcpWqAIkA2kuTjoIGzc2trdLKX3/view?usp=sharing">logs</a></td>
     </tr>
     <tr>
       <th>5</th>
       <td>DETR</td>
       <td>800x1333</td>
       <td>150</td>
-      <td>38.3</td>
-      <td>-</td>
+      <td>38.0</td>
+      <td><a href="https://drive.google.com/file/d/1fi1Nx4k-8tVY8nO4irLM17gmQXdVddm6/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1xjJ62WJR5UEzmd3nACWR_XGXCclKlTxj/view?usp=sharing">logs</a></td>
     </tr>
     </tr>
     <tr>
