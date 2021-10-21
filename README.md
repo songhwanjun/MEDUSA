@@ -8,9 +8,9 @@ Please consider citation if our paper is useful in your research.
 
 **Exploiting Scene Depth for Object Detection with Multimodal Transformers**
 
-by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup>, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup>, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>3</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>3</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>4</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>3,5,6</sup>
+by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup>, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup>, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>2</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>2</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>3</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>2,4,5</sup>
 
-<sup>1</sup> NAVER AI Lab, <sup>2</sup> Motion2Ai, <sup>3</sup> Google Researrch, <sup>4</sup> KAIST, <sup>5</sup> UC Merced,  <sup>6</sup> Yonsei University
+<sup>1</sup> NAVER AI Lab, <sup>2</sup> Google Researrch, <sup>3</sup> KAIST, <sup>4</sup> University California Merced, <sup>5</sup> Yonsei University
 
 ```BibTeX
 @inproceedings{MEDUSA,
