@@ -35,7 +35,7 @@ transformer-based object detection framework, requiring Pytorch 1.5+.
 
 ## Microsoft COCO Data with Inferred Depth Maps
 
-We extended a large-scale objecct detection dataset, Microsoft COCO, by applying the state-of-the-art monocular depth estimator, MiDaS ([paper](https://arxiv.org/pdf/1907.01341v3.pdf)). The extracted depth maps for Microsoft COCO is available [[here]](https://drive.google.com/file/d/1TyXIqykl_T6SmDBZJ0-y6OYnKVKRv9Aq/view?usp=sharing). Please put the two folders, train2017_depth and val2017_depth, at the same location where train_2017 and val2017 folders exist.
+We extended a large-scale objecct detection dataset, Microsoft COCO, by applying the state-of-the-art monocular depth estimator, MiDaS ([paper](https://arxiv.org/pdf/1907.01341v3.pdf)). The extracted depth maps for Microsoft COCO is available [[here]](https://drive.google.com/file/d/1TyXIqykl_T6SmDBZJ0-y6OYnKVKRv9Aq/view?usp=sharing). Please put the two folders, train2017_depth and val2017_depth, at the same location where train2017 and val2017 folders exist.
 
 ## Training
 Please run the run_distributed_medusa.py file using suitable hyperparameters inside. 
