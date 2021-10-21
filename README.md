@@ -8,9 +8,9 @@ Please consider citation if our paper is useful in your research.
 
 **Exploiting Scene Depth for Object Detection with Multimodal Transformers**
 
-by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup> \*, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup> \*, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>3</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>3</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>4</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>3,5</sup>
+by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup> \*, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup> \*, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>3</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>3</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>4</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>3,5,6</sup>
 
-<sup>1</sup> NAVER AI Lab, <sup>2</sup> Motion2Ai, <sup>3</sup> Google Researrch, <sup>4</sup> KAIST, <sup>5</sup> University of California at Merced.
+<sup>1</sup> NAVER AI Lab, <sup>2</sup> Motion2Ai, <sup>3</sup> Google Researrch, <sup>4</sup> KAIST, <sup>5</sup> UC Merced,  <sup>6</sup> Yonsei University
 
 ```BibTeX
 @inproceedings{MEDUSA,
@@ -87,6 +87,15 @@ The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
       <td>150</td>
       <td>27.4</td>
       <td><a href="https://drive.google.com/file/d/1TS___G9L4RfbdxBnyOUJtuFDLWdedRy-/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1h8L--fz9INa5q-eMgEKTf5bVrhWSjPBG/view?usp=sharing">logs</a></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>MEDUSA</td>
+      <td>300x500</td>
+      <td>150</td>
+      <td>28.9 (+1.5)</td>
+      <td><a href="https://drive.google.com/file/d/1BYtXs6VZJA4VHx0ozW8GxzJ3dZYJ16yR/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/170lin-9qhuggYyqeTbwLHawFuQDL5rrt/view?usp=sharing">logs</a></td>
+    </tr>
     <tr>
       <th>3</th>
       <td>DETR</td>
@@ -94,23 +103,6 @@ The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
       <td>150</td>
       <td>32.5</td>
       <td><a href="https://drive.google.com/file/d/1o-8B4gTEgyelBJrD-No_5gVvnR7zyuLC/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1B1AcmWcpWqAIkA2kuTjoIGzc2trdLKX3/view?usp=sharing">logs</a></td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>DETR</td>
-      <td>800x1333</td>
-      <td>150</td>
-      <td>38.0</td>
-      <td><a href="https://drive.google.com/file/d/1fi1Nx4k-8tVY8nO4irLM17gmQXdVddm6/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1xjJ62WJR5UEzmd3nACWR_XGXCclKlTxj/view?usp=sharing">logs</a></td>
-    </tr>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>MEDUSA</td>
-      <td>300x500</td>
-      <td>150</td>
-      <td>28.9 (+1.4)</td>
-      <td><a href="https://drive.google.com/file/d/1BYtXs6VZJA4VHx0ozW8GxzJ3dZYJ16yR/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/170lin-9qhuggYyqeTbwLHawFuQDL5rrt/view?usp=sharing">logs</a></td>
     </tr>
     <tr>
       <th>4</th>
@@ -121,11 +113,19 @@ The AP of MEDUSA compared with RGB-Only DETR are summarized in the table below.
       <td><a href="https://drive.google.com/file/d/1RdyySEw4hmjZY0BgPfWkRdxf15iRMAHH/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1nCBKNFM_Jp-8ApmIqJlp3LDfyw7cB-m6/view?usp=sharing">logs</a></td>
     </tr>
     <tr>
+      <th>5</th>
+      <td>DETR</td>
+      <td>800x1333</td>
+      <td>150</td>
+      <td>38.0</td>
+      <td><a href="https://drive.google.com/file/d/1fi1Nx4k-8tVY8nO4irLM17gmQXdVddm6/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1xjJ62WJR5UEzmd3nACWR_XGXCclKlTxj/view?usp=sharing">logs</a></td>
+    </tr>
+    <tr>
       <th>6</th>
       <td>MEDUSA</td>
       <td>800x1333</td>
       <td>150</td>
-      <td>40.0 (+1.7)</td>
+      <td>40.0 (+2.0)</td>
       <td><a href="https://drive.google.com/file/d/1jhxyNOLngHyvvcjfXT-Osi-RuBGh2qbS/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1-MppNO-I0nDvJyivpsA6vjAdYCDxlKgZ/view?usp=sharing">logs</a></td>
     </tr>
   </tbody>
