@@ -8,15 +8,15 @@ Please consider citation if our paper is useful in your research.
 
 **Exploiting Scene Depth for Object Detection with Multimodal Transformers**
 
-by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>2</sup>, [Sanghyuk Chun](https://scholar.google.com/citations?user=4_uj0xcAAAAJ&hl=en&oi=ao)<sup>1</sup>, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>2</sup>, [Dongyoon Han](https://scholar.google.com/citations?user=jcP7m1QAAAAJ&hl=en)<sup>1</sup>, [Byeongho Heo](https://scholar.google.com/citations?user=4_7rLDIAAAAJ&hl=en)<sup>1</sup>, [Wonjae Kim](https://scholar.google.com/citations?hl=en&user=UpZ41EwAAAAJ)<sup>1</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>2,3</sup>
+by [Hwanjun Song](https://scholar.google.com/citations?user=Ijzuc-8AAAAJ&hl=en&oi=ao)<sup>1</sup>, [Eunyoung Kim](https://scholar.google.com/citations?hl=en&user=xVZC-pgAAAAJ)<sup>2</sup>, [Varun Jampani](https://scholar.google.com/citations?hl=en&user=1Cv6Sf4AAAAJ)<sup>2</sup>, [Deqing Sun](https://scholar.google.com/citations?hl=en&user=t4rgICIAAAAJ)<sup>2</sup>, [Jae-Gil Lee](https://scholar.google.com/citations?hl=en&user=h9mbv9MAAAAJ)<sup>3</sup>, and [Ming-Hsuan Yang](https://scholar.google.com/citations?hl=en&user=p9-ohHsAAAAJ)<sup>2,4,5</sup>
 
-<sup>1</sup> NAVER AI Lab, <sup>2</sup> Google Researrch, <sup>3</sup> University California Merced
+<sup>1</sup> NAVER AI Lab, <sup>2</sup> Google Researrch, <sup>3</sup> KAIST, <sup>4</sup> University California Merced, <sup>5</sup> Yonsei University
 
 ```BibTeX
-@article{song2021vidt,
-  title={ViDT: An Efficient and Effective Fully Transformer-based Object Detector},
-  author={Song, Hwanjun and Sun, Deqing and Chun, Sanghyuk and Jampani, Varun and Han, Dongyoon and Heo, Byeongho and Kim, Wonjae and Yang, Ming-Hsuan},
-  journal={arXiv preprint arXiv:2110.03921},
+@inproceedings{MEDUSA,
+  title={Exploiting Scene Depth for Object Detection with Multimodal Transformers},
+  author={Song, Hwanjun and Kim, Eunyoung and Jampani, Varun and Sun, Deqing and Lee, Jae-Gil and Yang, Ming-Hsuan},
+  booktitle={BMVC},
   year={2021}
 }
 ```
